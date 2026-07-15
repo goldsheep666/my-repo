@@ -4,10 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "playwright>=1.61.0",
+]
 
 [dependency-groups]
 dev = [
     "basedpyright>=1.39.9",
     "jupyterlab-lsp>=5.3.0",
+    "pytest-playwright>=0.8.0"
 ]
