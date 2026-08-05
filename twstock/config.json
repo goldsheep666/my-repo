@@ -1,0 +1,11 @@
+{
+  "stocks": ["2330"],
+  "scraper": {
+    "headless": true,
+    "timeout_ms": 60000
+  },
+  "output": {
+    "dir": "output",
+    "formats": ["json", "csv"]
+  }
+}
